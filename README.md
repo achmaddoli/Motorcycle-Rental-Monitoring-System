@@ -68,7 +68,37 @@ The methodology and technical implementation of this project have been peer-revi
 | **Frontend** | Bootstrap 5, JavaScript, Leaflet.js (Maps) |
 
 ---
+## ⚙️ How to Run (Installation)
+Follow these steps to set up the web monitoring dashboard locally:
 
+### 1. Clone Repository
+git clone https://github.com/USERNAME/web-monitoring-motor.git
+cd web-monitoring-motor
+
+### 2. Install Dependencies
+composer install
+npm install
+
+### 3. Setup Environment
+cp .env.example .env
+php artisan key:generate
+
+## 4. Database Configuration
+1. Import db_rental_motor.sql
+2. Update your .env file:
+DB_DATABASE=db_rental_motor
+DB_USERNAME=root
+DB_PASSWORD=
+3. Run migrations:
+php artisan migrate
+
+## 5. Finalize
+php artisan storage:link
+php artisan serve
+
+Access at: http://127.0.0.1:8000
+
+---
 ## 📺 Visuals & Simulation
 
 ### Hardware & Software Showcase
