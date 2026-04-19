@@ -16,9 +16,9 @@ A professional-grade IoT ecosystem built to solve security vulnerabilities in th
 ## 🚀 Key Features
 - **📍 Live Tracking:** Real-time geospatial monitoring using Ublox NEO-6M.
 - **🛡️ Polygon Geofencing:** Advanced boundary detection using the Ray Casting Algorithm for precise administrative-level accuracy.
-- **🔌 Remote Kill-Switch:** Automated engine immobilization via Relay modules during theft attempts, geofence breaches, or rental expiration.
-- **🔊 Smart Alarm System:** Built-in buzzer alert that triggers when the rental time is about to expire or when a violation is detected, providing immediate on-vehicle warning.
-- **🤖 Telegram Bot Integration:** Instant push notifications for rental expiration and security alerts.
+- **🔌 Remote Kill-Switch:** Automated engine immobilization via Relay modules when the vehicle exits the Palembang geofence or rental time expires.
+- **🔊 Smart Alarm System:** Built-in buzzer/speaker that automatically triggers when the vehicle exits the Palembang area or when the rental time is about to expire, providing immediate on-vehicle warning.
+- **🤖 Telegram Bot Integration:** Instant push notifications for rental expiration and geofence exit alerts.
 - **📊 Admin Control Center:** A centralized Laravel dashboard to manage fleets, users, and rental logs.
 
 ---
