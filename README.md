@@ -92,6 +92,7 @@ DB_DATABASE=db_rental_motor
 DB_USERNAME=root
 
 DB_PASSWORD=
+
 3. Run migrations:
 php artisan migrate
 
