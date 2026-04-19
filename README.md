@@ -88,7 +88,9 @@ php artisan key:generate
 1. Import db_rental_motor.sql
 2. Update your .env file:
 DB_DATABASE=db_rental_motor
+
 DB_USERNAME=root
+
 DB_PASSWORD=
 3. Run migrations:
 php artisan migrate
