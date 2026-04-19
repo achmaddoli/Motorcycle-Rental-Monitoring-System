@@ -53,9 +53,9 @@ This system was field-tested in collaboration with **[Tulis Nama Mitra Kamu Disi
 ## 📚 Scientific Publication
 The methodology and technical implementation of this project have been peer-reviewed and published:
 - **Title:** "Rancang Bangun Sistem Monitoring dan Kontrol Jarak Jauh pada Rental Motor Berbasis IoT dengan Geofencing"
-- **Journal:** [Nama Jurnal Kamu, misal: Jurnal Fasilkom/Tekno Insentif]
+- **Journal:** JATI : Jurnal Mahasiswa Teknik Informatika
 - **Status:** Published (2025)
-- **🔗 [Link to Journal/DOI Here]**
+- **🔗 [https://doi.org/10.36040/jati.v9i5.14983 ]**
 
 ---
 
