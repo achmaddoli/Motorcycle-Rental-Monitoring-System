@@ -1,66 +1,86 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🏍️ IoT-Based Remote Monitoring & Control System for Motorcycle Rentals
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://img.shields.io/badge/Platform-Internet_of_Things-blue?style=for-the-badge" alt="Platform">
+  <img src="https://img.shields.io/badge/Framework-Laravel-red?style=for-the-badge&logo=laravel" alt="Framework">
+  <img src="https://img.shields.io/badge/Hardware-Arduino_Mega-orange?style=for-the-badge&logo=arduino" alt="Hardware">
 </p>
 
-## About Laravel
+## 📌 Project Overview
+A professional-grade IoT ecosystem built to solve security vulnerabilities in the motorcycle rental industry. This project integrates a high-precision hardware module with a web-based dashboard, enabling fleet owners to track, monitor, and remotely control vehicles in real-time. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**This project was developed in collaboration with a local rental partner and has been validated through scientific publication.**
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Key Features
+- **📍 Live Tracking:** Real-time geospatial monitoring using Ublox NEO-6M.
+- **🛡️ Polygon Geofencing:** Advanced boundary detection using the **Ray Casting Algorithm** for 100% Palembang city area accuracy.
+- **🔌 Remote Kill-Switch:** Automated engine immobilization via Relay modules during theft attempts or geofence breaches.
+- **🤖 Telegram Bot Integration:** Instant push notifications for rental expiration and security alerts.
+- **📊 Admin Control Center:** A centralized Laravel dashboard to manage fleets, users, and rental logs.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🧠 Comprehensive Reasoning (The "Why")
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### The Challenge
+Motorcycle theft and embezzlement are critical risks for local businesses. In Palembang, manual tracking often fails to prevent losses once a vehicle leaves city limits.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### The Solution: Why Polygon?
+Standard circular geofences often provide "false positives." By using **Polygon Geofencing**, the system follows the exact administrative boundaries of Palembang. I utilized **QGIS** to extract coordinate points, ensuring the system only triggers when the vehicle truly crosses the legal boundary.
 
-## Laravel Sponsors
+### Real-World Impact
+- **Accuracy:** Proven GPS deviation of only **12.10 meters**.
+- **Efficiency:** Reduced manual monitoring workload by **100%** through automated logic triggers.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🤝 Collaboration & Partnership
+This system was field-tested in collaboration with **[Tulis Nama Mitra Kamu Disini]**, a local motorcycle rental business. 
+- **Field Test Goal:** To ensure hardware durability and GPRS connectivity reliability in high-mobility urban scenarios.
+- **Result:** Successful integration and real-time intervention capabilities during active rental periods.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+---
 
-## Contributing
+## 📚 Scientific Publication
+The methodology and technical implementation of this project have been peer-reviewed and published:
+- **Title:** "Rancang Bangun Sistem Monitoring dan Kontrol Jarak Jauh pada Rental Motor Berbasis IoT dengan Geofencing"
+- **Journal:** [Nama Jurnal Kamu, misal: Jurnal Fasilkom/Tekno Insentif]
+- **Status:** Published (2025)
+- **🔗 [Link to Journal/DOI Here]**
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+---
 
-## Code of Conduct
+## 🛠️ Tech Stack
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Hardware** | Arduino Mega 2560, SIM7000G (LTE/GSM), Ublox NEO-6M, Relay, Buzzer |
+| **Backend** | Laravel (PHP), MySQL |
+| **Geospatial** | QGIS, Geopandas (Python), Ray Casting Algorithm |
+| **Frontend** | Bootstrap 5, JavaScript, Leaflet.js (Maps) |
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📺 Visuals & Simulation
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Hardware & Software Showcase
+<p align="center">
+  <img src="path/to/your/dashboard-screenshot.png" width="48%" alt="Dashboard Monitoring">
+  <img src="path/to/your/hardware-photo.png" width="48%" alt="Hardware Implementation">
+</p>
 
-## License
+### Full System Simulation
+[![Watch Simulation](https://img.shields.io/badge/Youtube-Watch_Demo_Video-red?style=for-the-badge&logo=youtube)](LINK_VIDEO_YOUTUBE_KAMU)
+*Click the badge above to see the hardware trigger, engine cut-off, and Telegram alerts in action.*
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 📈 Learning Journey
+Building this "End-to-End" system sharpened my skills in **Systems Thinking**. I learned to bridge the gap between physical hardware and cloud-based software, while managing the complexities of real-time geospatial data processing.
+
+---
+
+## 📄 License & Credits
+Developed by **Achmad Doli Harahap** as part of the Final Thesis program at Politeknik Negeri Sriwijaya.
+Licensed under [MIT License](https://opensource.org/licenses/MIT).
