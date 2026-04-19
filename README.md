@@ -24,11 +24,18 @@ A professional-grade IoT ecosystem built to solve security vulnerabilities in th
 
 ## 🧠 Comprehensive Reasoning (The "Why")
 
-### The Challenge
-Motorcycle theft and embezzlement are critical risks for local businesses. In Palembang, manual tracking often fails to prevent losses once a vehicle leaves city limits.
+### **The Problem: Structural Vulnerabilities**
+Motorcycle rentals face two "silent killers": **Large-scale embezzlement** and **manual management gaps**.
+- **Real Threat:** Recent cases (Jan 2025) showed 20 units stolen by one fraudster, causing ~Rp400M in losses.
+- **Operational Gap:** Manual logging results in zero real-time visibility, leading to delayed returns and untraceable theft.
 
-### The Solution: Why Polygon?
-Standard circular geofences often provide "false positives." By using **Polygon Geofencing**, the system follows the exact administrative boundaries of Palembang. I utilized **QGIS** to extract coordinate points, ensuring the system only triggers when the vehicle truly crosses the legal boundary.
+### **The Research: Beyond Basic Tracking**
+Standard circular geofencing is imprecise for urban use. My research focuses on **strict, administrative-based boundaries** to provide the high-level security that rental businesses actually require.
+
+### **The Solution: Why Polygon & Remote Control?**
+1. **Precision Logic:** Used **Polygon Geofencing (Ray Casting Algorithm)** to follow the exact administrative borders of Palembang City—far more accurate than standard radii.
+2. **Proactive Intervention:** Integrated a **Remote Kill-Switch (Relay)**. The system doesn't just monitor; it automatically immobilizes the engine if a boundary breach or time expiration occurs.
+3. **Automated Ecosystem:** Integrated **Laravel, APIs, and Telegram** to replace manual workflows with a seamless, real-time alert and control system.
 
 ### Real-World Impact
 - **Accuracy:** Proven GPS deviation of only **12.10 meters**.
