@@ -68,38 +68,152 @@ The methodology and technical implementation of this project have been peer-revi
 | **Frontend** | Bootstrap 5, JavaScript, Leaflet.js (Maps) |
 
 ---
-## ⚙️ How to Run (Installation)
-Follow these steps to set up the web monitoring dashboard locally:
+## ⚙️ Installation & System Setup
 
 ### 1. Clone Repository
-git clone https://github.com/achmaddoli/Motorcycle-Rental-Monitoring-System
-cd web-monitoring-motor
+
+```bash
+git clone https://github.com/achmaddoli/Motorcycle-Rental-Monitoring-System.git
+cd Motorcycle-Rental-Monitoring-System
+```
+
+---
+
+## 💻 Backend Setup (Laravel)
 
 ### 2. Install Dependencies
+
+```bash
 composer install
 npm install
+```
 
 ### 3. Setup Environment
+
+```bash
 cp .env.example .env
 php artisan key:generate
+```
 
-## 4. Database Configuration
-1. Import db_rental_motor.sql
-2. Update your .env file:
+### 4. Configure Database
+
+Create a new MySQL database, for example:
+
+```sql
+db_rental_motor
+```
+
+Update your `.env` file:
+
+```env
 DB_DATABASE=db_rental_motor
-
 DB_USERNAME=root
-
 DB_PASSWORD=
+```
 
-3. Run migrations:
+### 5. Import Database / Run Migration
+
+If you provide an SQL file:
+
+```bash
+Import the provided .sql file into MySQL
+```
+
+Or if using migrations:
+
+```bash
 php artisan migrate
+```
 
-## 5. Finalize
-php artisan storage:link
+### 6. Run Laravel Server
+
+```bash
 php artisan serve
+npm run dev
+```
 
-Access at: http://127.0.0.1:8000
+---
+
+## 🔌 Hardware Setup (Arduino Mega)
+
+### 7. Required Hardware
+
+* Arduino Mega 2560
+* SIM7000G
+* Ublox NEO-6M
+* Relay module
+* Buzzer
+* Li-Po Battery
+* UBEC
+
+### 8. Upload Firmware to Arduino
+
+Open the Arduino IDE, then upload the firmware source code which is Microcontroller Program.ino.
+
+Make sure the required Arduino libraries are installed:
+
+* TinyGPSPlus
+* TinyGSM
+* ArduinoHttpClient
+
+### 9. Configure Firmware
+
+Before uploading, adjust the following inside the Arduino code:
+
+* GSM/APN provider configuration
+* Laravel API endpoint URL
+* Vehicle ID or device ID
+* Relay and buzzer pin definitions
+
+Example:
+
+```cpp
+const char server[] = "your-domain.com";
+const char resource[] = "/api/location/update";
+String vehicle_id = "MTR001";
+```
+
+---
+
+## 🤖 Telegram Bot Setup
+
+### 10. Configure Telegram Bot
+
+Create a bot using **@BotFather**, then add the token into your Laravel `.env` file:
+
+```env
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+```
+
+Also make sure each customer/user record includes a valid Telegram chat ID.
+
+---
+
+## 🔄 Full System Workflow
+
+### 11. How to Run the Full System
+
+1. Turn on the Laravel server and database
+2. Power the Arduino Mega device
+3. Arduino reads GPS coordinates from Ublox NEO-6M
+4. SIM7000G sends location data to Laravel API
+5. Laravel checks:
+
+   * geofence status (inside/outside Palembang)
+   * rental time status
+6. Laravel sends response back to Arduino
+7. Arduino triggers:
+
+   * relay for engine cut-off
+   * buzzer for warning
+8. Laravel sends Telegram notifications when needed
+
+---
+
+## 📌 Notes
+
+* This project is an **integrated IoT + Web system**, so both the Laravel backend and Arduino hardware must be configured correctly.
+* The website alone does not represent the full system.
 
 ---
 
