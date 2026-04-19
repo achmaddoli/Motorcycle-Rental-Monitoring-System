@@ -26,7 +26,7 @@ A professional-grade IoT ecosystem built to solve security vulnerabilities in th
 
 ### **The Problem: Structural Vulnerabilities**
 Motorcycle rentals face two "silent killers": **Large-scale embezzlement** and **manual management gaps**.
-- **Real Threat:** Recent cases (Jan 2025) showed 20 units stolen by one fraudster, causing ~Rp400M in losses.
+- **Real Threat:** Recent cases (Jan 2025) showed 20 units stolen by one fraudster, causing ~Rp400M in losses  (Humas Polres Bantul, 2025).
 - **Operational Gap:** Manual logging results in zero real-time visibility, leading to delayed returns and untraceable theft.
 
 ### **The Research: Beyond Basic Tracking**
