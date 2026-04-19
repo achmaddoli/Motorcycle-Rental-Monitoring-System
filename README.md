@@ -102,21 +102,37 @@ php artisan serve
 Access at: http://127.0.0.1:8000
 
 ---
+
 ## 📺 Visuals & Simulation
 
-### Website and Bot Telegram Showcase
-<p align="center">
-  <img src="path/to/your/dashboard-screenshot.png" width="48%" alt="Dashboard Monitoring">
-  <img src="path/to/your/hardware-photo.png" width="48%" alt="Hardware Implementation">
-</p>
+### 💻 Website Dashboard Interface
+*The management system features 6 core modules: Authentication, Real-time Dashboard, Live Monitoring, Rental Logs, User Management, and Vehicle Fleet Data.*
 
-### Real Simulation outside Palembang
-[![Watch Simulation](https://img.shields.io/badge/Youtube-Watch_Demo_Video-red?style=for-the-badge&logo=youtube)](LINK_VIDEO_YOUTUBE_KAMU)
-*Click the badge above to see the hardware trigger, engine cut-off, and Telegram alerts in action.*
+| 🔐 Login Page | 📊 Main Dashboard | 📡 Live Monitoring |
+| :---: | :---: | :---: |
+| <img src="public/login.png" width="250"> | <img src="public/Dashboard Section.png" width="250"> | <img src="public/Monitoring Section.png" width="250"> |
+| **🏍️ Vehicle Fleet** | **👥 User Management** | **🔑 Rental Records** |
+| <img src="public/Vehicle Section.png" width="250"> | <img src="public/User Section.png" width="250"> | <img src="public/Rent Section.png" width="250"> |
 
-### Website Demonstration
-[![Watch Simulation](https://img.shields.io/badge/Youtube-Watch_Demo_Video-red?style=for-the-badge&logo=youtube)](LINK_VIDEO_YOUTUBE_KAMU)
-*Click the badge above to see the hardware trigger, engine cut-off, and Telegram alerts in action.*
+---
+
+### 🤖 Telegram Notification System
+| Security & Duration Alerts |
+| :---: |
+| <img src="public/Bot Telegram.png" width="400" alt="Telegram Notification"> |
+| *Automated alerts for geofence breaches & rental duration warnings* |
+
+---
+### 🎥 Video Demonstrations
+*Click the thumbnails below to watch the system in action.*
+
+#### **1. Real Simulation (Outside Palembang City)**
+[![Real Simulation Video](https://img.youtube.com/vi/UiRfMmB3ZiQ/0.jpg)](https://youtu.be/UiRfMmB3ZiQ)
+> **Simulation Focus:** Demonstrates real-world hardware response: buzzer activation and automatic engine cut-off when the vehicle exits the Palembang geofence.
+
+#### **2. Full Website System Demo**
+[![Full Website System Demo](https://img.youtube.com/vi/uYgXGPgfSG0/0.jpg)](https://youtu.be/uYgXGPgfSG0)
+> **System Focus:** Showcases the complete workflow across 6 modules: Login, Dashboard, Monitoring, Rental, User, and Vehicle Management.
 ---
 
 ## 📈 Learning Journey
