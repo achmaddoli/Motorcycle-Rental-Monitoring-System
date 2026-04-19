@@ -81,6 +81,3 @@ Building this "End-to-End" system sharpened my skills in **Systems Thinking**. I
 
 ---
 
-## 📄 License & Credits
-Developed by **Achmad Doli Harahap** as part of the Final Thesis program at Politeknik Negeri Sriwijaya.
-Licensed under [MIT License](https://opensource.org/licenses/MIT).
