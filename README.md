@@ -55,7 +55,7 @@ The methodology and technical implementation of this project have been peer-revi
 - **Title:** "Rancang Bangun Sistem Monitoring dan Kontrol Jarak Jauh pada Rental Motor Berbasis IoT dengan Geofencing"
 - **Journal:** JATI : Jurnal Mahasiswa Teknik Informatika
 - **Status:** Published (2025)
-- **🔗 [https://doi.org/10.36040/jati.v9i5.14983 ]**
+- **🔗 [https://doi.org/10.36040/jati.v9i5.14983]**
 
 ---
 
