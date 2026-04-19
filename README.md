@@ -19,8 +19,7 @@ A professional-grade IoT ecosystem built to solve security vulnerabilities in th
 - **🔌 Remote Kill-Switch:** Automated engine immobilization via Relay modules when the vehicle exits the Palembang geofence or rental time expires.
 - **🔊 Smart Alarm System:** Built-in buzzer/speaker that automatically triggers when the vehicle exits the Palembang area or when the rental time is about to expire, providing immediate on-vehicle warning.
 - **🤖 Telegram Bot Integration:** Instant push notifications for rental expiration and geofence exit alerts.
-- **📊 Admin Control Center:** A centralized Laravel dashboard to manage fleets, users, and rental logs.
-
+- **📊 Admin Control Center:** A centralized Laravel-based dashboard for managing rental operations, including rental time configuration, customer management, and motorcycle fleet registration.
 ---
 
 ## 🧠 Comprehensive Reasoning (The "Why")
