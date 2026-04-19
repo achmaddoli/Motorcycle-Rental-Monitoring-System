@@ -73,7 +73,7 @@ The methodology and technical implementation of this project have been peer-revi
 Follow these steps to set up the web monitoring dashboard locally:
 
 ### 1. Clone Repository
-git clone https://github.com/USERNAME/web-monitoring-motor.git
+git clone https://github.com/achmaddoli/Motorcycle-Rental-Monitoring-System
 cd web-monitoring-motor
 
 ### 2. Install Dependencies
