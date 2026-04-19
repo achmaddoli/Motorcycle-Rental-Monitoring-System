@@ -104,16 +104,19 @@ Access at: http://127.0.0.1:8000
 ---
 ## 📺 Visuals & Simulation
 
-### Hardware & Software Showcase
+### Website and Bot Telegram Showcase
 <p align="center">
   <img src="path/to/your/dashboard-screenshot.png" width="48%" alt="Dashboard Monitoring">
   <img src="path/to/your/hardware-photo.png" width="48%" alt="Hardware Implementation">
 </p>
 
-### Full System Simulation
+### Real Simulation outside Palembang
 [![Watch Simulation](https://img.shields.io/badge/Youtube-Watch_Demo_Video-red?style=for-the-badge&logo=youtube)](LINK_VIDEO_YOUTUBE_KAMU)
 *Click the badge above to see the hardware trigger, engine cut-off, and Telegram alerts in action.*
 
+### Website Demonstration
+[![Watch Simulation](https://img.shields.io/badge/Youtube-Watch_Demo_Video-red?style=for-the-badge&logo=youtube)](LINK_VIDEO_YOUTUBE_KAMU)
+*Click the badge above to see the hardware trigger, engine cut-off, and Telegram alerts in action.*
 ---
 
 ## 📈 Learning Journey
