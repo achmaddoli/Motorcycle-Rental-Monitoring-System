@@ -45,7 +45,7 @@ Standard circular geofencing is imprecise for urban use. My research focuses on 
 ---
 
 ## 🤝 Collaboration & Partnership
-This system was field-tested in collaboration with **[Tulis Nama Mitra Kamu Disini]**, a local motorcycle rental business. 
+This system was field-tested in collaboration with **Rental Motor Palembang founded by Ihsan Fikri**, a local motorcycle rental business. 
 - **Field Test Goal:** To ensure hardware durability and GPRS connectivity reliability in high-mobility urban scenarios.
 - **Result:** Successful integration and real-time intervention capabilities during active rental periods.
 
