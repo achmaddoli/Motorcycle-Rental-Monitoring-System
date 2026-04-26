@@ -258,7 +258,7 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
 ---
 
 ## 📈 Learning Journey
-Building this "End-to-End" system sharpened my skills in systems thinking. I learned to bridge the gap between physical hardware and cloud-based software, while managing the complexities of real-time geospatial data processing. Beyond technical skills, I learned how to communicate technical limitations to non-technical stakeholders (the rental owners) and adapt the system based on their real-world feedback
+Building this "End-to-End" system sharpened my skills in systems thinking. I learned to bridge the gap between physical hardware and cloud-based software, while managing the complexities of real-time geospatial data processing. Beyond technical skills, I learned how to communicate technical limitations to non-technical stakeholders (the rental owners) and adapt the system based on their real-world feedback.
 
 ---
 
