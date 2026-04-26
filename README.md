@@ -194,6 +194,11 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
 
 ## 🔄 Full System Workflow
 
+### 10. Flowchart System
+<img width="463" height="1226" alt="image" src="https://github.com/user-attachments/assets/5400a812-b411-407b-b426-feb318ccd615" />
+<img width="562" height="1360" alt="image" src="https://github.com/user-attachments/assets/b0971953-8411-4597-bd74-8a30c19924cd" />
+
+
 ### 11. How to Run the Full System
 
 1. Turn on the Laravel server and database
@@ -210,6 +215,7 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
    * relay for engine cut-off
    * buzzer for warning
 8. Laravel sends Telegram notifications when needed
+
 
 ---
 
