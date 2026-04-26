@@ -7,7 +7,10 @@
 </p>
 
 ## 📌 Project Overview
-A professional-grade IoT ecosystem built to solve security vulnerabilities in the motorcycle rental industry. This project integrates a high-precision hardware module with a web-based dashboard, enabling fleet owners to track, monitor, and remotely control vehicles in real-time. 
+A professional-grade IoT ecosystem built to solve security vulnerabilities in the motorcycle rental industry. This project integrates a high-precision hardware module with a web-based dashboard, enabling fleet owners to track, monitor, and remotely control vehicles in real-time.
+
+## 📌 Project Context
+This project was developed as a Final Thesis (Independent Project) for my Computer Engineering degree at State Polytechnic of Sriwijaya.
 
 **This project was developed in collaboration with a local rental partner in Palembang and has been validated through scientific publication.**
 
@@ -250,7 +253,7 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
 ---
 
 ## 📈 Learning Journey
-Building this "End-to-End" system sharpened my skills in **Systems Thinking**. I learned to bridge the gap between physical hardware and cloud-based software, while managing the complexities of real-time geospatial data processing.
+Building this "End-to-End" system sharpened my skills in **Systems Thinking**. I learned to bridge the gap between physical hardware and cloud-based software, while managing the complexities of real-time geospatial data processing. Beyond technical skills, I learned how to communicate technical limitations to non-technical stakeholders (the rental owners) and adapt the system based on their real-world feedback
 
 ---
 
