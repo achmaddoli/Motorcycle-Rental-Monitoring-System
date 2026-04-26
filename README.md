@@ -258,7 +258,14 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
 ---
 
 ## 📈 Learning Journey
+### **⚠️ Challenge & Overcoming Them**
+1. GPS Data Drift & Precision
+- Challenge: During early testing, the Ublox NEO-6M module experienced "data drifting," where GPS coordinates jumped significantly even when the vehicle was stationary, leading to false geofence triggers.
+- Overcoming: I implemented a moving average filter and data-validation logic in the firmware. By filtering out "outlier" coordinates that exceeded logical speed thresholds, I achieved a much higher accuracy with an average deviation of only 12.10 meters.
+
+### **What I Learned**
 Building this "End-to-End" system sharpened my skills in systems thinking. I learned to bridge the gap between physical hardware and cloud-based software, while managing the complexities of real-time geospatial data processing. Beyond technical skills, I learned how to communicate technical limitations to non-technical stakeholders (the rental owners) and adapt the system based on their real-world feedback.
+
 
 ---
 
