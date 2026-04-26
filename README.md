@@ -6,6 +6,76 @@
   <img src="https://img.shields.io/badge/Hardware-Arduino_Mega-orange?style=for-the-badge&logo=arduino" alt="Hardware">
 </p>
 
+## 🧠 Why I Built This
+
+Motorcycle rental businesses often operate on trust — but in reality, **they have no way to verify what happens after a vehicle leaves**.
+
+During my research, I found real cases where rental owners lost multiple motorcycles due to fraud, late returns, and lack of monitoring systems. Most operations still rely on **manual tracking and human memory**, which creates serious security and operational risks.
+
+This led me to a key question:
+
+> *What if a rental system could not only monitor vehicles — but actively protect them in real time?*
+
+---
+
+## 🚀 What I Built
+
+I developed a **full-stack IoT ecosystem** that enables rental businesses to:
+
+* Track motorcycles in real-time using GPS
+* Define precise operational boundaries with **polygon geofencing**
+* Automatically enforce rules via a **remote engine kill-switch**
+* Receive instant alerts through **Telegram notifications**
+
+This is not just a tracking system —
+it is a **real-time decision-making system**.
+
+---
+
+## 🎯 Project Context
+
+* **Type:** Final Thesis (Independent Project)
+* **Field:** Computer Engineering
+* **Institution:** State Polytechnic of Sriwijaya
+* **Validation:** Tested with real rental business + published research
+
+---
+
+## ⚙️ My Approach (How I Think)
+
+Instead of building a basic tracking system, I focused on three key principles:
+
+### 1. Precision Over Simplicity
+
+Most systems use circular geofencing (radius-based), which is inaccurate for real-world city boundaries.
+
+➡️ I implemented **polygon geofencing using the Ray Casting Algorithm**, allowing the system to follow **actual administrative borders**.
+
+---
+
+### 2. Automation Over Monitoring
+
+Most solutions only provide information.
+
+➡️ I designed a system that **acts automatically**:
+
+* Cuts off engine when rules are violated
+* Sends alerts without human intervention
+
+---
+
+### 3. Real-World Validation
+
+Instead of stopping at simulation:
+
+➡️ I tested the system with an actual rental business to ensure:
+
+* Hardware durability
+* Network reliability
+* Practical usability
+
+---
+
 ## 📌 Project Overview
 A professional-grade IoT ecosystem built to solve security vulnerabilities in the motorcycle rental industry. This project integrates a high-precision hardware module with a web-based dashboard, enabling fleet owners to track, monitor, and remotely control vehicles in real-time.
 
