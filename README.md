@@ -20,10 +20,19 @@ This led me to a key question:
 
 ## 🎯 Project Context
 
-* **Type:** Final Thesis (Independent Project)
-* **Field:** Computer Engineering
+* **Type:** Independent Final Thesis
+* **Field:** Computer Engineering / Internet of Things
+* **Role:** IoT System Developer
 * **Institution:** State Polytechnic of Sriwijaya
-* **Validation:** Tested with real rental business + published research
+* **Validation:** Field-tested with Rental Motor Palembang and published in JATI Journal
+
+---
+
+## 👨‍💻 My Contribution
+
+As the individual developer of this project, I was responsible for designing and implementing the end-to-end IoT system, including the Laravel dashboard, GPS data processing, polygon geofencing logic, Arduino-based hardware integration, relay control, buzzer warning system, and Telegram notification flow.
+
+I also conducted field testing with a motorcycle rental business to validate GPS accuracy, hardware reliability, and real-world usability.
 
 ---
 
@@ -76,7 +85,7 @@ An end-to-end IoT system designed to solve real-world security and operational c
 - **📊 Admin Control Center:** A centralized Laravel-based dashboard for managing rental operations, including rental time configuration, customer management, and motorcycle fleet registration.
 ---
 
-## 🧠 Comprehensive Reasoning (The "Why")
+## 🧠 Design Reasoning 
 
 ### **The Problem: Structural Vulnerabilities**
 Building on this problem, I explored deeper structural issues in rental operations: 
@@ -92,8 +101,8 @@ Standard circular geofencing is imprecise for urban use. My research focuses on 
 3. **Automated Ecosystem:** Integrated **Laravel, APIs, and Telegram** to replace manual workflows with a seamless, real-time alert and control system.
 
 ### Real-World Impact
-- **Accuracy:** Proven GPS deviation of only **12.10 meters**.
-- **Efficiency:** Reduced manual monitoring workload by **100%** through automated logic triggers.
+- **Accuracy:** Proven GPS deviation of only **16.15 meters**.
+- **Efficiency:** Reduced the need for continuous manual monitoring by automating geofence alerts, rental-time warnings, and engine immobilization triggers.
 
 ---
 
@@ -109,7 +118,7 @@ The methodology and technical implementation of this project have been peer-revi
 - **Title:** "Rancang Bangun Sistem Monitoring dan Kontrol Jarak Jauh pada Rental Motor Berbasis IoT dengan Geofencing"
 - **Journal:** JATI : Jurnal Mahasiswa Teknik Informatika
 - **Status:** Published (2025)
-- **🔗 [https://doi.org/10.36040/jati.v9i5.14983]**
+- **Publication Link:** [JATI Journal Article](https://doi.org/10.36040/jati.v9i5.14983)
 
 ---
 
@@ -245,11 +254,11 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
 
 ## 🔄 Full System Workflow
 
-### 10. Flowchart System
+### 11. Flowchart System
 <p align="center"> <img src="https://github.com/user-attachments/assets/5400a812-b411-407b-b426-feb318ccd615" width="20%" /> <img src="https://github.com/user-attachments/assets/b0971953-8411-4597-bd74-8a30c19924cd" width="20%" /> </p>
 
 
-### 11. How to Run the Full System
+### 12. How to Run the Full System
 
 1. Turn on the Laravel server and database
 2. Power the Arduino Mega device
