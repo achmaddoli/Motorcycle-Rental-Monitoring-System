@@ -72,7 +72,7 @@ Instead of stopping at simulation:
 ---
 
 ## 📌 Project Overview
-An end-to-end IoT system designed to solve real-world security and operational challenges in motorcycle rentals, combining real-time monitoring with automated control mechanisms.
+An end-to-end IoT system designed to solve real-world security and operational challenges in motorcycle rentals by combining real-time tracking, polygon geofencing, automated alerts, and remote vehicle control.
 
 ---
 
@@ -275,7 +275,6 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
    * buzzer for warning
 8. Laravel sends Telegram notifications when needed
 
-
 ---
 
 ## 📌 Notes
@@ -316,12 +315,13 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
 [![Full Website System Demo](https://img.youtube.com/vi/uYgXGPgfSG0/0.jpg)](https://youtu.be/uYgXGPgfSG0)
 > **System Focus:** Showcases the complete workflow across 6 modules: Login, Dashboard, Monitoring, Rental, User, and Vehicle Management.
 ---
-
 ## 📈 Learning Journey
 ### **⚠️ Challenges & How I Overcame Them**
-1. **GPS Data Drift & Precision**
-   - **Challenge:** During early testing, the Ublox NEO-6M module experienced GPS data drifting, where coordinates jumped significantly even when the vehicle was stationary, creating false geofence triggers.
-   - **Solution:** I implemented a moving average filter and data-validation logic in the firmware to filter out outlier coordinates and improve GPS reliability, achieving a field-validated average deviation of 16.15 meters.
+
+#### 1. GPS Data Drift & Precision
+
+- **Challenge:** During early testing, the Ublox NEO-6M module experienced GPS data drifting, where coordinates jumped significantly even when the vehicle was stationary, leading to false geofence triggers.
+- **Solution:** I implemented a moving average filter and data-validation logic in the firmware. By filtering out outlier coordinates that exceeded logical speed thresholds, I improved GPS reliability and achieved a field-validated average deviation of 16.15 meters.
 
 ### **What I Learned**
 Building this "End-to-End" system sharpened my skills in systems thinking. I learned to bridge the gap between physical hardware and cloud-based software, while managing the complexities of real-time geospatial data processing. Beyond technical skills, I learned how to communicate technical limitations to non-technical stakeholders (the rental owners) and adapt the system based on their real-world feedback.
