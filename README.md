@@ -255,7 +255,7 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
 ## 🔄 Full System Workflow
 
 ### 11. Flowchart System
-<p align="center"> <img src="https://github.com/user-attachments/assets/5400a812-b411-407b-b426-feb318ccd615" width="20%" /> <img src="https://github.com/user-attachments/assets/b0971953-8411-4597-bd74-8a30c19924cd" width="20%" /> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/5400a812-b411-407b-b426-feb318ccd615" width="30%" /> <img src="https://github.com/user-attachments/assets/b0971953-8411-4597-bd74-8a30c19924cd" width="30%" /> </p>
 
 
 ### 12. How to Run the Full System
@@ -314,7 +314,9 @@ Also make sure each customer/user record includes a valid Telegram chat ID.
 #### **2. Full Website System Demo**
 [![Full Website System Demo](https://img.youtube.com/vi/uYgXGPgfSG0/0.jpg)](https://youtu.be/uYgXGPgfSG0)
 > **System Focus:** Showcases the complete workflow across 6 modules: Login, Dashboard, Monitoring, Rental, User, and Vehicle Management.
+
 ---
+
 ## 📈 Learning Journey
 ### **⚠️ Challenges & How I Overcame Them**
 
